@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url(../img/fundo1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.back {
+    margin-left: 3.5%;
+    width: 93%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #62929e;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    z-index: 1000; /* Garante que a barra fique acima de outros elementos */
+}
+.btn {
+    color: #000000;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 3px;
+    margin: 0 20px;
+}
+.conteudo {
+    padding-top: 25px;
+    height: 580px;
+    background-color: rgb(243, 243, 243);
+}
+.conteudo-h1-1{
+    margin: 100px 20px 60px 40px;
+    font-size: 2.5em;
+}
+.conteudo-p-1{
+    margin: 0 300px 30px 40px;
+    font-size: 1.2em;
+    line-height: 30px;
+}
+
+/* final/segunda parte*/
+
+.conteudo2 {
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 0 300px 30px 40px;
+}
+.conteudo2-h1-1{
+    margin: 100px 20px 60px 0px;
+    font-size: 2.5em;
+}
+.conteudo2-p-1{
+    font-size: 1.2em;
+    line-height: 30px;
+}
+.conteudo2-p-2{
+    font-size: 0.9em;
+    line-height: 25px;
+}
+
+.conteudo3 {
+    background-color: aliceblue;
+    height: auto;
+    padding: 0 300px 30px 40px;
+}
